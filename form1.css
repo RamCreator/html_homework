@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://images.pond5.com/abstract-background-reflection-form-1-012281592_prevstill.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  p {
+    color: red;
+    text-shadow: 2px 2px 5px rgb(230, 25, 87);
+  }
+  
+  h1 {
+    color: rgb(177, 172, 172);
+    border-style:dotted solid ;
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid rgb(92, 79, 167);
+    outline-offset: 15px;
+  }
+  
+  h2{
+    border: 5px solid rgb(29, 33, 245);
+    border-radius: 12px;
+    padding: 10px;
+    color: rgb(143, 145, 151);
+
+  } 
+  h3{
+    color: rgb(83, 22, 22);
+    border-style:dotted solid ;
+    margin: 30px;
+    border: 1px solid rgb(12, 11, 11);
+    outline: 5px solid rgb(110, 13, 236);
+    outline-offset: 15px;
+    border: 1px solid rgb(19, 19, 20);
+    border-radius: 12px;
+  }
+
+  }

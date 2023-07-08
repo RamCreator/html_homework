@@ -1,51 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</form></title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link rel="stylesheet" href="formcss.css"
+<body
+  <p>htmlcss</p>
+  <button class=" button1">rose</button>
+  <button class=" button2">yellow</button>
+  <form autocomplete="off">
+    <h1> your option</h1>
+    <h2> computer language</h2>
 
-<body>
-    <form>
-       <h1>  your option</h1>
-      <h2> computer language</h2>
-       <form>
-         <input type="radio" id="html" name="fav_language" value="HTML">
-         <label for="html">HTML</label><br>
-         <input type="radio" id="css" name="fav_language" value="CSS">
-         <label for="css">CSS</label><br>
-         <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-         <label for="javascript">JavaScript</label><BR>
-         <input type="radio" id="swift" name="fav_language" value="SWIFT">
-         <label for="swift">SWIFT</label><br>
-         <input type="radio" id="c++" name="fav_language" value="C++">
-         <label for="C++">C++</label><br>
-         <h1> subject</h1>
-         <input type="radio" id="tamil" name="fav_language" value="TAMIL">
-         <label for="tamil">TAMIL</label><BR>
-         <input type="radio" id="english" name="fav_language" value="ENGLISH">
-         <label for="english">ENGLISH</label><br>
-         <input type="radio" id="maths" name="fav_language" value="MATHS">
-         <label for="maths">MATHS</label><br>
-         <input type="radio" id="biology" name="fav_language" value="BIOLOGY">
-         <label for="biology">BIOLOGY</label>
-            </form>  
-            <form>
-         <label for="fname">subject:</label><br>
-         <input type="text" id="fname" name="fname" value="maths"><br>
-         <label for="lname">computer language:</label><br>
-         <input type="text" id="lname" name="lname" value="javascript"><br><br>
-         <h2>Checkboxes</h2>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label><BR>
+    <input type="radio" id="swift" name="fav_language" value="SWIFT">
+    <label for="swift">SWIFT</label><br>
+    <input type="radio" id="c++" name="fav_language" value="C++">
+    <label for="C++">C++</label><br>
+    <h1> subject</h1>
+    <input type="radio" id="tamil" name="fav_language" value="TAMIL">
+    <label for="tamil">TAMIL</label><BR>
+    <input type="radio" id="english" name="fav_language" value="ENGLISH">
+    <label for="english">ENGLISH</label><br>
+    <input type="radio" id="maths" name="fav_language" value="MATHS">
+    <label for="maths">MATHS</label><br>
+    <input type="radio" id="biology" name="fav_language" value="BIOLOGY">
+    <label for="biology">BIOLOGY</label>
 
-<form action="/action_page.php" target="_blank" method="get"></form>
-  <input type="checkbox" id="jacky" name="carton" value="hero">
-  <label for="jacky">jacky chan</label><br>
-  <input type="checkbox" id="artho" name="cartonn" value="hero">
-  <label for="artho"> dragen booster</label><br>
-  <input type="checkbox" id="shinchan" name="carton" value="hero">
-  <label for="shinchan">shinchan</label><br><br>
-  <input type="submit" value="Submit">
+
+    <label for="fname">subject:</label><br>
+    <input type="text" id="fname" name="fname" value="maths"><br>
+    <label for="lname">computer language:</label><br>
+    <input type="text" id="lname" name="lname" value="javascript"><br><br>
+    <input type="submit">
+
+
+    <h1>Checkboxes</h1>
+
+
+    <input type="checkbox" id="jacky" name="carton" value="hero">
+    <label for="jacky">jacky chan</label><br>
+    <input type="checkbox" id="artho" name="cartonn" value="hero">
+    <label for="artho"> dragen booster</label><br>
+    <input type="checkbox" id="shinchan" name="carton" value="hero">
+    <label for="shinchan">shinchan</label><br><br>
+    <input type="submit" value="Submit">
+    <h1>select</h1>
+
+    <label for="game">Choose the game:</label>
+    <select id="game" name="game">
+      <option value="cricket">cricket</option>
+      <option value="foodball">foodball</option>
+      <option value="volleyball">volleyball</option>
+      <option value="hacky">hacky</option>
+    </select>
+    <input type="submit">
+
+    <h1>Input Button</h1>
+    <input type="button" onclick="alert('Hii HOPE3 student')" value="Click Me!">
+
+    <h1>text area </h1
+    <p><label for="w3review">Review in HOPE3</label></p>
+    <textarea  id="w3review" name="w3review" rows="4"
+      cols="50">At HOPE3.com you will learn how to make a website. </textarea>
+    <br></div>
+    <input type="submit" value="Submit">
+    <h3>FIELDSET
+    </h3>
+
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+
+      <h1>datalist</h1>
+
+      <label for="fav_foods">Choose your food:</label>
+      <input list="fav_foods">
+      <datalist id="fav_foods">
+        <option value="biriyani">
+        <option value="porotta">
+        <option value="dosha">
+        <option value="fish fry">
+        <option value="ice cream">
+      </datalist>
+      <input type="submit">
+
+      <p><strong>Note:</strong>enjoy the food</p>
+  </form>
+  <a href="https://www.youtube.com/" target="_blank">This is a link</a>
+
 </body>
-
 </html>
