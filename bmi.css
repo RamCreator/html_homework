@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
 body{
     display:flex;
     justify-content: center;
     align-items: center;
     min-height: 10vh;
-    background:linear-gradient(to right, #090000, #f8f5f5, #faf8f8, #000c0c,);
+     background: linear-gradient(to right, #929596,#fafdfd, #fafdfd, #adb0b2);
    
    
 }
@@ -17,13 +18,13 @@ body{
     position: relative;
     width: 380px;
     height: 420px;
-    background:linear-gradient(to right, #080808, rgb(235, 15, 15), #d823d2, #40d413, #0b0b0b);
+    background:linear-gradient(to right, #0b0b0b, rgb(43, 233, 236), #f50707, #4cebed,  #000f0f);
     border-radius: 8px;
 }
  .box form{
     position:absolute;
     inset:4px;
-    background:linear-gradient(to right, #fafbfb, #b7e9e9, #acecec, #f5f7f7);
+    background:linear-gradient(to right, #b7dbed, #c8d5d5, #cdd9d9, #b7d8ed);
     padding: 50px 40px;
     border-radius: 8px;
     z-index: 2;
@@ -69,16 +70,4 @@ body{
     box-sizing: border-box; 
 }
 
- .botton1{
-    border: none;
-    outline: none;
-    padding: 9px 25px;
-    background: #7b0505;
-    cursor: pointer;
-    font-size: 0.9em;
-    border-radius: 4px;
-    font-weight:600 ;
-    width: 100px;
-    margin-top: 10px;
 
-} 
