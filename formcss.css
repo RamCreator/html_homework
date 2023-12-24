@@ -1,11 +1,6 @@
 fieldset {
   font-size: small;
 }
-
-
-
-  
-
 .button1 {
   background-color: #f8a0ec;/* rose */} 
 
@@ -63,5 +58,42 @@ a:hover {
 a:active {
   background-color: rgb(209, 56, 132);
 }
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
 
-
+div {
+  background-color: rgb(250, 192, 235);
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+  /* partical{
+    position: absolute;
+    width:auto;
+    height: auto;
+ }       
+ test{
+    position: absolute;
+    width:auto;
+    height: auto;
+    line-height:auto;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: " ";
+    display: inline-block;
+    position:absolute;
+ }
+ backround{ 
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width:0 ;
+    animation: backround-animetion 2s 
+    ease-in-out 4s 1 normal forwards;
+ } */

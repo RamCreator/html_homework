@@ -18,22 +18,32 @@ body {
     outline-offset: 15px;
   }
   
-  h2{
+  #ram{
     border: 5px solid rgb(29, 33, 245);
-    border-radius: 12px;
-    padding: 10px;
-    color: rgb(143, 145, 151);
+    border-radius: 15px;
+    padding: 20px;
+    color: rgb(28, 44, 92);
+    max-width: 500px;
+    margin: auto;
+    border: 5px solid #798070;
 
   } 
-  h3{
+  #department{
     color: rgb(83, 22, 22);
     border-style:dotted solid ;
     margin: 30px;
+    position: sticky;
+    left: 30em;
     border: 1px solid rgb(12, 11, 11);
-    outline: 5px solid rgb(110, 13, 236);
+    outline: 5px solid rgb(195, 180, 214);
     outline-offset: 15px;
     border: 1px solid rgb(19, 19, 20);
     border-radius: 12px;
+    border: 1px solid black;
+    overflow: scroll;
+    background-image: inherit;
+    width: 200px;
+    height: 100px;
   }
 
-  }
+ 

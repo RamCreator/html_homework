@@ -44,7 +44,7 @@
                     resultMessage = ` Your BMI is ${userBMI}. You are underweight. 😒😒😢`;
                 } else if (userBMI <= 25.0) {
                     resultMessage = ` Your BMI is ${userBMI}. You are in a healthy weight. 🥳👌`;
-                } else if (userBMI <= 35.0) {
+                } else if (userBMI <= 30.0) {
                     resultMessage = `Your BMI is ${userBMI}. You are overweight. 😧😨`;
                 } else {
                     resultMessage = `Your BMI is ${userBMI}. You are in obesity range. 😱`;
@@ -52,7 +52,7 @@
                 document.getElementById('demo').innerHTML = resultMessage;
             }
             function bmi_calc(weight, height) {
-                return (weight / height ** 2);
+                return (weight / height ** 2) * 1000;
             }
         </script>
         </body>
